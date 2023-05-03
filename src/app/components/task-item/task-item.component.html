@@ -1,0 +1,9 @@
+<div [ngClass]="{ container: true, remind: task.reminder }">
+  <div class="task-title">
+    <h3>{{ task.text }}</h3>
+    <span [id]="task.id" class="delete-task" (click)="notify.emit(task.id)"
+      >x</span
+    >
+  </div>
+  <div class="task-content">{{ task.day }}</div>
+</div>

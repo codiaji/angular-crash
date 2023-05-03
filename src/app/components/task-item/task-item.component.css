@@ -1,0 +1,25 @@
+.container {
+  padding-inline: 5px;
+  padding-block: 5px;
+  margin: 0px;
+  margin-block-end: 2px;
+  background-color: #cccccc;
+  min-height: fit-content;
+  border-radius: 0;
+  border: none;
+}
+
+.remind {
+  border-inline-start: 4px solid green;
+}
+
+.task-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title span {
+  color: red;
+  font-weight: bold;
+}
